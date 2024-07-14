@@ -134,7 +134,6 @@ const propertyTextValue = (
   { schema, pageHeader },
   defaultFn: () => React.ReactNode
 ) => {
-  console.log(schema)
   if (pageHeader && schema?.name?.toLowerCase() === 'author') {
     return <b>{defaultFn()}</b>
   }
